@@ -1,8 +1,8 @@
 #!/bin/bash
 set -Eeuo pipefail
 
-SOURCE="data"
-DEST="backups"
+SOURCE="/home/devuser/tp-bash/data"
+DEST="/home/devuser/tp-bash/backups"
 DATE=$(date +%Y-%m-%d_%H-%M-%S)
 ARCHIVE="$DEST/backup_$DATE.tar.gz"
 
